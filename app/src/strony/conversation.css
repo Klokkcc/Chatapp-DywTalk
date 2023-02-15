@@ -1,0 +1,49 @@
+#conversation{
+    position: absolute;
+    height: 600px;
+    width: 930px;
+    left: 550px;
+    top: 100px;
+    
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+    overflow:auto;
+    
+
+
+
+}
+#conversation::-webkit-scrollbar {
+  width: 16px;
+  cursor: pointer;
+}
+
+#conversation::-webkit-scrollbar-track {
+  background-color: #ecfffe;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+#conversation::-webkit-scrollbar-thumb {
+  background-color: #818181;
+  border-radius: 100px;
+  cursor: pointer;
+}
+#message{
+    left: 0px;
+    padding: 20px;
+    height:calc(100%-100px);
+    width:500px;
+    border-radius: 20px;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    color:black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#container{
+  position: relative;
+  width:800px;
+  height:calc(100%-100px);
+}
